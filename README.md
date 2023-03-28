@@ -29,7 +29,6 @@ python src/main.py --help
 
 The project repository is structured as follows:
 
-object_detection_and_tracking/
 
     README.md
     requirements.txt
