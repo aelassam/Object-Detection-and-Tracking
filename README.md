@@ -8,7 +8,7 @@ This project is a Python-based computer vision application that can detect and t
 
 To install the required packages, run the following command:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 This will install all the required packages and their dependencies.
 
@@ -16,13 +16,13 @@ This will install all the required packages and their dependencies.
 
 To run the application, use the following command:
 
-python src/main.py --model yolov3 --tracker kalman --video data/raw/example.mp4
+    python src/main.py --model yolov3 --tracker kalman --video data/raw/example.mp4
 
 This command will load the YOLOv3 model for object detection and the Kalman filter for object tracking, and apply them to the example video file in the data/raw directory.
 
 You can also specify other models and trackers, as well as other input sources such as images or live camera streams. For more information on the available options, use the following command:
 
-python src/main.py --help
+    python src/main.py --help
 
 
 ## Structure
