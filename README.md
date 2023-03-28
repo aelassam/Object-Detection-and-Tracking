@@ -30,14 +30,21 @@ python src/main.py --help
 The project repository is structured as follows:
 
 object_detection_and_tracking/
+
     README.md
+    
     requirements.txt
+    
     data/
+    
         raw/
+        
             # raw input data, such as images or videos
         processed/
+        
             # preprocessed data, such as annotations or extracted features
         models/
+        
             # trained models or pre-trained weights
     src/
         # source code for the project
